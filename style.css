@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color:#191970;
+}
+img{
+    border-radius: 8px;
+}
+.name{
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(255, 255, 255) ;
+    text-align: center;
+}
+/* Header styles */
+header {
+    background-color: #191970;
+    color:white ;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+header a {
+    color: white	;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color:	#A7C7E7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black ;
+    text-align: center;
+}
+.forma {
+    
+       
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  
+ 
+  cursor: pointer;
+      
+      
+}
+
+/* Paragraph styles */
+footer {
+    margin-left: 25% ;
+}
+
+

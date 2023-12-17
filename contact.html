@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>  
+    <title>Contact - Mon CV</title>
+</head>
+<body>
+    <header>
+        <meta charset="UTF-8">
+            <a href="index.html">Accueil</a>
+            <a href="parcours.html">Parcours académiques/competance</a>
+            <a href="experiences.html">Langue/Expériences</a>
+            <a href="contact.html">Contact</a>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+        
+    </header>
+   <section>
+    <h1>Me Contacter</h1>
+
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="num">Numéro :</label>
+            <input type="text" id="num" name="num" pattern="\d{8}" title="Le numéro doit avoir 8 chiffres" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+
+            <button type="submit">Envoyer</button>
+    
+  </form> 
+    </section>
+    
+
+
+
+    <footer>
+        <p>
+        <ul>
+    
+            <i class="fas fa-envelope"> nourelhouda.najjar@esprit.tn</i>
+            <i class="fab fa-facebook"> Noor Najjar </i>
+            <i class="fab fa-github">nournajjjar</i>
+            <i class="fab fa-linkedin"> noor-najjar</i>
+            <i class="fas fa-home"> Ariana,Tunis</i>
+            <i class="fas fa-phone">+216 96 269 699</i>
+    
+        </ul>
+        </P>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
